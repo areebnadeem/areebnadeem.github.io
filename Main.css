@@ -1,0 +1,98 @@
+/* *{
+    font-size: 15px;
+} */
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#picture{
+    display: flex;
+    justify-content: center;
+    /* margin-right: 5%; */
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#title{
+    margin-left: 40%;
+}
+
+/* #Logos{
+    display: flex;
+    margin-left: 45%;
+} */
+/* #pages{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+} */
+
+a{
+    text-decoration: none;
+}
+
+/* #Intro{
+    margin-left: 20%;
+} */
+
+#Schools{
+    /* margin-left: 20%; */
+    margin-top: 20px;
+    
+}
+
+.school{
+    max-width: 300px !important;
+    height: 250px;
+}
+
+.link{
+    text-decoration: none;
+    text-emphasis-color: Black;
+}
+
+#Project{
+    margin-left: 40%;
+}
+
+#ProjRow1{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#ProjRow2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.project-pics{
+    width: 250px;
+    height: 250px;
+}
+
+#Hunt{
+    margin-left: 30%;
+   
+}
+
+#Breed{
+    margin-left: 40%;
+   
+}
+
+#OnlineCart{
+    margin-left: 20%;
+}
+
+#Crypto{
+    margin-left: 40%;
+}
