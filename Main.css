@@ -1,6 +1,6 @@
-/* *{
-    font-size: 15px;
-} */
+*{
+    bottom: 20px;
+}
 
 .top{
     display: flex;
@@ -24,6 +24,7 @@
 #title{
     margin-left: 40%;
 }
+
 
 /* #Logos{
     display: flex;
@@ -75,8 +76,8 @@ a{
 }
 
 .project-pics{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 #Hunt{
@@ -85,7 +86,7 @@ a{
 }
 
 #Breed{
-    margin-left: 40%;
+    margin-left: 30%;
    
 }
 
@@ -96,3 +97,11 @@ a{
 #Crypto{
     margin-left: 40%;
 }
+/* 
+@media only screen and (max-width: 600px) {
+    .col{
+       justify-content: center;
+    }
+        
+    
+} */
