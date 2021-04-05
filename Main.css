@@ -1,107 +1,156 @@
-*{
-    bottom: 20px;
-}
-
-.top{
+#MainDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
-#picture{
+ #Picture{
     display: flex;
     justify-content: center;
-    /* margin-right: 5%; */
     width: 150px;
     height: 150px;
     border: 1px solid black;
     border-radius: 50%;
     overflow: hidden;
-}
+ }
 
-#title{
-    margin-left: 40%;
-}
+ #Pages{
+     margin-left: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
 
+ #Logos{
+     display: flex;
+     justify-content: space-evenly;
+ }
 
-/* #Logos{
-    display: flex;
-    margin-left: 45%;
-} */
-/* #pages{
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-} */
+ .link{
+     text-decoration: none;
+ }
 
-a{
-    text-decoration: none;
-}
+ #Intro{
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: 10%;
+     display: flex;
+     flex-direction: column;
+     
+ }
 
-/* #Intro{
-    margin-left: 20%;
-} */
-
-#Schools{
-    /* margin-left: 20%; */
-    margin-top: 20px;
-    
-}
+ #SchoolRow{
+     
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
 
 .school{
-    max-width: 300px !important;
+    width: 300px;
     height: 250px;
 }
 
-.link{
+#HKU{
+    padding-top: 30px;
+}
+
+#Nixor{
+    width: 416px;
+}
+
+#NixorList{
+    padding-top: 10px;
+}
+
+#AllProjects{
+    height: 500px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Project-Row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects{
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project-links{
     text-decoration: none;
-    text-emphasis-color: Black;
+    margin-top: 10px;
+    
+
 }
 
-#Project{
-    margin-left: 40%;
+#TheHunt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#ProjRow1{
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-#ProjRow2{
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-.project-pics{
-    width: 200px;
-    height: 200px;
-}
-
-#Hunt{
-    margin-left: 30%;
-   
-}
-
-#Breed{
-    margin-left: 30%;
-   
-}
-
-#OnlineCart{
-    margin-left: 20%;
+#ProjectDetails{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #Crypto{
-    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* 
-@media only screen and (max-width: 600px) {
-    .col{
-       justify-content: center;
-    }
-        
+
+.h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:560px;
+    border-top:1px solid gray;
     
-} */
+  }
+  
+  #CryptoDetails{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  #CryptoPicContainer{
+      width: 250px;      
+  }
+
+  .Crypto-Pic{
+      width: 250px;
+      image-rendering: optimizeQuality;
+  }
+  
+  .Breed-Pic{
+    width: 250px;
+    image-rendering: optimizeQuality;
+}
+
+#CartPicContainer{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
