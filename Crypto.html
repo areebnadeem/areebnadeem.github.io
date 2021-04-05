@@ -1,9 +1,9 @@
 <html>
-    <head>
-        <title>Areeb's Portfolio</title>
-        <link href="Main.css" rel="stylesheet" type="text/css" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+<head>
+    <link href="Main.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -15,55 +15,74 @@
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    <body>
-        
-       <div class = 'top'>
-        
-           
-        <div id = 'picture'>
-            <img src="https://i.ibb.co/5KY7ZNm/Whats-App-Image-2021-03-29-at-3-30-07-PM-2.jpg" alt="Whats-App-Image-2021-03-29-at-3-30-07-PM-2" border="0">
+<body>
+    <div id='MainDiv'>
+        <div id='Picture'>
+            <img src="https://i.ibb.co/5KY7ZNm/Whats-App-Image-2021-03-29-at-3-30-07-PM-2.jpg"
+                alt="Whats-App-Image-2021-03-29-at-3-30-07-PM-2">
+            </br>
         </div>
-        <div class = "d-flex flex-column align-items-center">
-           <h1>Nadeem Areeb</h1>
-           <h3>Software Developer</h3>
+        <h2>Areeb Nadeem</h2>
+        <h3>Software Developer</h3>
 
-        <div id = "pages" class = "mt-2">
-            <a href="index.html"><i class="fa fa-home mx-2" style = "font-size: 30px; color: lightblue;"></i></a>
-            <a class = 'link' href = "Projects.html"> Projects</a>
-            <!-- <a class = "link mx-2" href = "Resume.html" >Resume</a> -->
-         </div>
-         <br/>
-         <div id = "Logos" class = "mt-2">
-            <a href="https://github.com/areebnadeem" target = "_blank"><i class="fa fa-github mx-3 " style = "font-size: 20px;"></i></a>
-            <a href="mailto:areebnad@gmail.com"><i class="fa fa-envelope mx-3" style = "font-size: 20px; color: lightblue"></i></a>
-            
-         </div>
+        <div id="AllLogos">
+            <div id="Pages">
+                <a href="index.html"><i class="fa fa-home mx-2" style="font-size: 30px; color: lightblue;"></i></a>
+                <a class='link mx-1' href="Projects.html"> Projects</a>
+            </div>
+            <br />
+            <div id="Logos">
+                <a href="https://github.com/areebnadeem" target="_blank"><i class="fa fa-github "
+                        style="font-size: 20px;"></i></a>
+                <a href="mailto:areebnad@gmail.com"><i class="fa fa-envelope"
+                        style="font-size: 20px; color: lightblue"></i></a>
+            </div>
         </div>
-   
-        </div> 
 
     </div>
-    <div id = 'Crypto'>
-        <div class = "d-flex flex-column mt-4">
-            <h3>Cryptocurreny Price Alert</h3>
-            <img class = "link project-pics" src = "https://i.ibb.co/S0PHFp6/Screenshot-150.png" alt="Screenshot-150" border="0">
-        </div>
-        <br/>
-        <h3>Technical Details</h3>
-        <ul>
-            <li>Python libraries such as bs4, smtplib</li>
-            <li>MIME objects for sending email</li>
-            <li>Fetching Url to get Cryptocurrency price</li>  
-        </ul>
-
-        <a href="https://github.com/areebnadeem/Cryptocurrency-Price-Alert">https://github.com/areebnadeem/Cryptocurrency-Price-Alert</a>
-        
     </br>
-</br>
+    </br>
 
+    <div id="Crypto">
 
-        </body>
-        </html>
+        <h3>Cryptocurrency Price Alert</h3>
+        <div class='h-divider'>
+            <p>This project alerts the user via email when the price of a Cryptocurrency (Bitcoin used in my code)
+                fluctuates</p>
+        </div>
+        </br>
+        </br>
+        </br>
+        <div id="CryptoPicContainer">
+            <img class="Crypto-Pic" src="https://i.ibb.co/S0PHFp6/Screenshot-150.png" alt="Screenshot-150">
+        </div>
+        </br>
+        </br>
+        <div id="CryptoDetails">
+            <h3>Technical Details</h3>
+            <ul>
+                <li>Python libraries such as:</li>
+                <ol>
+                    <li>bs4 (Beautiful Soup) to parse HTML</li>
+                    <li>requests to fetch price of cryptocurrency</li>
+                    <li>smtplib (Simple Mail Transfer Protocol Client) to send email</li>
+                    <li>ssl (Secure Sockets Layer) for secure connection to server</li>
+                </ol>
+                <li>MIMEMultipart object was created to store details of reciever, sender and subject of email</li>
+                <li>HTML MIMEText object was created to store content of email</li>
+
+            </ul>
+
+            <div>
+                <p style="display: inline; font-weight: bold;">See code at</p>
+                <a href="https://github.com/areebnadeem/Cryptocurrency-Price-Alert">https://github.com/areebnadeem/Cryptocurrency-Price-Alert</a>
+        
+                </br>
+                </br>
+            </div>
+</body>
+
+</html>
