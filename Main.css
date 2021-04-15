@@ -85,10 +85,11 @@
 .Project-Row{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .projects{
-    width:250px;
+    /* width:250px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +157,7 @@
 }
 
 #CartPicContainer{
-    width: 600px;
+    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -194,6 +195,30 @@
     }
 }
 
+@media screen and (max-width: 400 px){
+    
+    .projects{
+        margin: 5% 5%;
+        width: 150px;
+    }
+
+    .Project-Row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+/* @media screen and (max-width: 600px){
+    #CartPicContainer{
+        width: 600px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+} */
+  
+
 /* @media screen and (max-width: 500px){
 
     #SchoolRow{
@@ -211,4 +236,5 @@
         width: 200px;
     }
 } */
+
 
