@@ -119,7 +119,9 @@
 
 .fcpic{ 
     width: 200px;
+    height: 160px;
 }
+
 #Work{
      
     margin-right: 10%;
@@ -158,9 +160,11 @@
 
 
 .NixorList{
-    padding-top: 10px;
+   
     padding-bottom: 10px;
 }
+
+
 
 /* #AllProjects{
     height: 500px;
@@ -176,6 +180,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .projects{
@@ -184,6 +189,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.projects-fc{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .Project-links{
