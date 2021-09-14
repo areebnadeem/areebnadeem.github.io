@@ -80,7 +80,7 @@
  #Intro{
      
      margin-right: 10%;
-     margin-bottom: 10%;
+     margin-bottom: 5%;
      display: flex;
      flex-direction: column;
      padding-left: 320px;
@@ -91,7 +91,7 @@
   
      
         margin-right: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: column;
         padding-left: 320px;
@@ -101,16 +101,29 @@
  #AllProjects{
      
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     padding-left: 320px;
     
 }
+
+.project-pics {
+    width: 200px;
+    height: 150px;
+}
+.bfa-pic{
+    height: 160px;
+    
+}
+
+.fcpic{ 
+    width: 200px;
+}
 #Work{
      
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     padding-left: 320px;
@@ -133,13 +146,20 @@
 
 #HKU{
     margin-bottom:  20px;
-    margin-left: 50px;
+    margin-left: 10px;
+}
+
+.checkLink{
+    color: 'lightblue';
+    font-style: italic;
+    
 }
 
 
 
 .NixorList{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* #AllProjects{
@@ -265,6 +285,14 @@
 .Nixor{
     margin-right: 40px;
 }
+.projects-bfa{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
 
 /* @media screen and (max-width: 650px){
     
@@ -328,47 +356,88 @@
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;
     width: 150px}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 15px;}
     #MainDiv{
    
         padding-left: 180px;
+        font-size: 15px;
       
     }
     #Intro{
         padding-left: 180px;
+        font-size: 15px;
     }
     #AllProjects{
         padding-left: 180px;
+        font-size: 15px;
     }
     .intro {
         padding-left: 180px;
+        font-size: 15px;
     }
     #Work {
         padding-left: 180px;
+        font-size: 15px;
         }
   }
 
   @media screen and (max-width: 650px) {
     .sidenav {padding-top: 15px;
     width: 150px}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 15px;}
     #MainDiv{
    
         padding-left: 180px;
+        font-size: 15px;
       
     }
     #Intro{
         padding-left: 180px;
+        font-size: 15px;
     }
     #AllProjects{
         padding-left: 180px;
+        font-size: 15px;
     }
     .intro {
         padding-left: 180px;
+        font-size: 15px;
     }
     #Work {
         padding-left: 180px;
+        font-size: 15px;
         }
+   
+
+  }
+
+  @media screen and (max-width: 650px) {
+    .sidenav {padding-top: 15px;
+    width: 100px}
+    .sidenav a {font-size: 15px;}
+    #MainDiv{
+   
+        padding-left: 110px;
+        font-size: 12px;
+      
+    }
+    #Intro{
+        padding-left: 110px;
+        font-size: 12px;
+    }
+    #AllProjects{
+        padding-left: 110px;
+        font-size: 12px;
+    }
+    .intro {
+        padding-left: 110px;
+        font-size: 12px;
+    }
+    #Work {
+        padding-left: 110px;
+        font-size: 12px;
+        }
+     
 
   }
 
